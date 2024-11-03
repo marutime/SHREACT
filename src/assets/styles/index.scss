@@ -1,0 +1,150 @@
+@import './color.scss';
+@import './font.scss';
+@import './variables.scss';
+@import './components.scss';
+@import './animation.scss';
+@import './responsive.scss';
+
+html, body {
+    width: 100%;
+    height: 100%;
+    min-width: fit-content;
+
+    font-size: $font-size-base;
+    line-height: $line-height-1;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -o-text-size-adjust: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+
+    font-family: $font-family;
+    font-size: $font-size-14;
+    font-weight: $font-weight-400;
+}
+
+body {
+    position: relative;
+    // color: $white;
+    // background-color: $black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    // overflow: hidden;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img, fieldset {
+    border: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+em, address {
+    font-style: normal;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button,
+label {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+input,
+button,
+select {
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+textarea {
+    outline: 0;
+    resize: none;
+}
+
+canvas {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+section {
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+legend {
+    border: 0;
+}
+
+picture {
+    display: inline-flex;
+}
+
+br.pc {
+    display: inline;
+}
+
+br.m {
+    display: none;
+}
+
+@media (max-width:1023px) {
+    br.pc {
+        display: none;
+    }
+
+    br.m {
+        display: inline;
+    }
+}
+
+/* ********** SCROLLBAR ********** */
+// ::-webkit-scrollbar {
+//     width: 6px;
+//     height: 10px;
+//     background: transparent;
+// }
+
+// ::-webkit-scrollbar-thumb,
+// ::-webkit-scrollbar-thumb:hover {
+//     background-color: $black;
+// }
