@@ -1,5 +1,6 @@
 @import '../../assets/styles/index.scss';
 
+<<<<<<< HEAD
 .contact-container {         
     padding: 50px;    
         h1{
@@ -41,3 +42,41 @@
 
 
 
+=======
+.contact-container { 
+    background-color: $gray-100;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+    .contact-form {
+        background-color: $gray-400;
+        width: 100%;
+        max-width: 600px;
+        min-height: 60vh;
+        border-radius: $border-radius-10;
+        
+        
+        
+        div {
+            padding-top: $padding-40;
+            text-align: center;
+            label {
+                display: block;
+                margin-bottom: 20px;
+            }
+            input {
+                background-color: $white-100 !important;
+                width: 60%;
+            }
+            textarea {
+                padding: $padding-15;
+                height: 150px;
+                width: 60%;
+            }
+        }          
+    }    
+}
+
+>>>>>>> 4b8c3667da030c0388177a044b2c4464b134a5bc

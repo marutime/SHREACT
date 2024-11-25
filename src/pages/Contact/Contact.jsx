@@ -3,6 +3,7 @@ import './Contact.scss';
 
 const Contact = () => {
   return (
+<<<<<<< HEAD
     <section className='contact-container'>
       <header>
         <h1>CONTACT</h1>
@@ -75,6 +76,40 @@ const Contact = () => {
       </article>
 
     </section>
+=======
+    <div className='contact-container'>
+      <form className='contact-form'>
+        <div>
+          <label>Name</label>
+          <input
+            type="text"
+            name="name"            
+            style={{ backgroundColor: '#e0e0e0', borderColor: '#ccc', padding: '10px', marginBottom: '10px' }}
+          />
+          
+        </div>
+        <div>
+          <label>E-mail</label>
+          <input
+            type="email"
+            name="email"
+            style={{ backgroundColor: '#e0e0e0', borderColor: '#ccc', padding: '10px', marginBottom: '10px' }}
+          />
+          
+        </div>
+        <div>
+          <label>Message</label>
+          <textarea name="" id=""></textarea>
+        </div>
+        <div>
+          <button type="submit" style={{ backgroundColor: '#ccc', padding: '10px' }}>
+            submit
+          </button>
+        </div>
+      </form>
+
+    </div>
+>>>>>>> 4b8c3667da030c0388177a044b2c4464b134a5bc
   )
 }
 
