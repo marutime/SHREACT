@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+// Variables
+
+/// DEFAULT
+$max-width : 1800px;
+
+$padding : 50px;
+$padding-15: 15px;
+$padding-30 : 30px;
+$padding-40 : 40px;
+$padding-50 : 50px;
+$padding-60 : 60px;
+$padding-80 : 80px;
+$padding-120 : 120px;
+
+$margin : 300px;
+$margin-last : 200px;
+
+/// BORDER RADIUS
+$border-radius-2: 2px;
+$border-radius-3: 3px;
+$border-radius-4: 4px;
+$border-radius-5: 5px;
+$border-radius-10: 10px;
+$border-radius-20: 20px;
+$border-radius-30: 30px;
+$border-radius-circle: 50%;
+$border-radius-icon: 0 100px 100px;
+
+/// TRANSITION
+$transition-15: .15s cubic-bezier(.33,1,.68,1);
+$transition-25: .25s cubic-bezier(.33,1,.68,1);
+$transition-35: .35s cubic-bezier(.33,1,.68,1);
+$transition-45: .45s cubic-bezier(.33,1,.68,1);
+$transition-55: .55s cubic-bezier(.33,1,.68,1);
+$transition-65: .65s cubic-bezier(.33,1,.68,1);
+
+/// RESPONSIVE
+$tablet: 1023px;
+$mobile: 767px;
+
+@mixin tablet {
+    @media screen and (max-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: $mobile) {
+        @content;
+    }
+}

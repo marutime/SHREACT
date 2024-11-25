@@ -1,0 +1,14 @@
+@import '../../assets/styles/font.scss';
+@import '../../assets/styles/color.scss';
+
+.navbar {
+    font-size: $font-size-14;
+    ul{
+        display: flex;
+        justify-content: right;        
+    }
+    li {        
+        font-weight: $font-weight-800;
+        font-size: $font-size-28;
+    }
+}

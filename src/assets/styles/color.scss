@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+/// Colors
+
+// COLOR WHITE
+$white: #ffffff;
+$white-100: #ececec;
+$white-200: #f2f4f6;
+$white-300: #d9d9d9;
+$white-400: #a8a8a8;
+$white-500: #9c9c9b;
+$white-600: #777777;
+$white-700: #667085;
+
+// COLOR GRAY
+$gray-100: #f9f9f9;
+$gray-200: #f4f4f4;
+$gray-300: #eeeeee;
+$gray-400: #dddddd;
+$gray-500: #bbbbbb;
+$gray-600: #888888;
+$gray-700: #666666;
+$gray-800: #444444;
+$gray-900: #1d1d1d;
+
+// COLOR BLACK
+$black: #000000;
+
+// COLOR SILVER
+$silver-000: #fcfcfd;
+$silver-050: #f9fafb;
+$silver-100: #f2f4f7;
+$silver-200: #e4e7ec;
+$silver-300: #d0d5dd;
+$silver-400: #98a2b3;
+$silver-500: #667085;
+$silver-600: #475467;
+$silver-700: #344054;
+$silver-800: #1d2939;
+$silver-900: #101828;
+
+// COLOR CYAN
+$cyan-000: #F4FCFE;
+$cyan-100: #E0F6FC;
+$cyan-200: #BCEAF7;
+$cyan-300: #7FD8EF;
+$cyan-400: #37C1DF;
+$cyan-500: #239AB3;
+$cyan-600: #1B7388;
+$cyan-700: #144D5C;
+$cyan-800: #0D2631;
+$cyan-900: #061316;
+
+// COLOR TEAL
+$teal-000: #F4FCFA;
+$teal-100: #E0F5F1;
+$teal-200: #B9E7DE;
+$teal-300: #7DD3C3;
+$teal-400: #3FB29E;
+$teal-500: #328E7E;
+$teal-600: #266A5E;
+$teal-700: #1A463F;
+$teal-800: #0E231F;
+$teal-900: #071210;
+
+// COLOR GREEN
+$green-000: #f6fef9;
+$green-050: #ecfdf3;
+$green-100: #d1fadf;
+$green-200: #a6f4c5;
+$green-300: #6ce9a6;
+$green-400: #32d583;
+$green-450: #4CBA00;
+$green-500: #12b76a;
+$green-600: #039855;
+$green-700: #027a48;
+$green-800: #05603a;
+$green-900: #054f31;
+
+// COLOR ORANGE
+$orange-000: #fffaf5;
+$orange-050: #fff6ed;
+$orange-100: #ffead5;
+$orange-200: #fddcab;
+$orange-300: #feb273;
+$orange-400: #fd853a;
+$orange-500: #fb6514;
+$orange-600: #ec4a0a;
+$orange-700: #c4320a;
+$orange-800: #9c2a10;
+$orange-900: #7e2410;
+
+// COLOR YELLOW
+$yellow-000: #FFFCF5;
+$yellow-100: #FFF6E0;
+$yellow-200: #FFEAB3;
+$yellow-300: #FFD980;
+$yellow-400: #FFC84B;
+$yellow-500: #CCA03C;
+$yellow-600: #99782D;
+$yellow-700: #66501E;
+$yellow-800: #33280F;
+$yellow-900: #1A1407;
+
+// COLOR RED
+$red-000: #FEF5F4;
+$red-100: #FAE1DF;
+$red-200: #F3B7B2;
+$red-300: #E87E75;
+$red-400: #D7260D;
+$red-500: #AC1F0A;
+$red-600: #811708;
+$red-700: #561005;
+$red-800: #2B0803;
+$red-900: #150401;
+
+// COLOR PINK
+$pink-000: #fef5fb;
+$pink-050: #fdf2fa;
+$pink-100: #fce7f6;
+$pink-200: #fcceee;
+$pink-300: #faa7e0;
+$pink-400: #f670c7;
+$pink-500: #ee46bc;
+$pink-600: #dd2590;
+$pink-700: #c11574;
+$pink-800: #9e165f;
+$pink-900: #851651;
+
+// COLOR ROSE
+$rose-000: #fff5f6;
+$rose-050: #fff1f3;
+$rose-100: #ffe4e8;
+$rose-200: #fecdd6;
+$rose-300: #fea3b4;
+$rose-400: #fd6f8e;
+$rose-500: #f63d68;
+$rose-600: #e31b54;
+$rose-700: #c01048;
+$rose-800: #a11043;
+$rose-900: #89123e;
+
+// COLOR BLUE LIGHT
+$lightBlue-000: #f5fbff;
+$lightBlue-050: #f0f9ff;
+$lightBlue-100: #e0f2fe;
+$lightBlue-200: #b9e6fe;
+$lightBlue-300: #7cd4fd;
+$lightBlue-400: #36bffa;
+$lightBlue-500: #0ba5ec;
+$lightBlue-600: #0086c9;
+$lightBlue-700: #026aa2;
+$lightBlue-800: #065986;
+$lightBlue-900: #0b4a6f;
+
+// COLOR BLUE
+$blue-000: #f5faff;
+$blue-050: #eff8ff;
+$blue-100: #d1e9ff;
+$blue-200: #b2ddff;
+$blue-300: #84caff;
+$blue-400: #53b1fd;
+$blue-500: #2e90fa;
+$blue-600: #1570ef;
+$blue-700: #175cd3;
+$blue-800: #1849a9;
+$blue-900: #194185;
+
+// COLOR INDIGO
+$indigo-000: #f5f8ff;
+$indigo-050: #eef4ff;
+$indigo-100: #e0eaff;
+$indigo-200: #c7d7fe;
+$indigo-300: #a4bcfd;
+$indigo-400: #8098f9;
+$indigo-500: #6172f3;
+$indigo-600: #444ce7;
+$indigo-700: #3538cd;
+$indigo-800: #2d31a6;
+$indigo-900: #2d3282;
+
+// COLOR purple
+$purple-000: #fafaff;
+$purple-050: #f4f3ff;
+$purple-100: #ebe9fe;
+$purple-200: #d9d6fe;
+$purple-300: #bd84fe;
+$purple-350: #aaa0ff;
+$purple-400: #9b8afb;
+$purple-450: #9b8afb;
+$purple-500: #7a5af8;
+$purple-600: #6938ef;
+$purple-700: #5925dc;
+$purple-750: #6157b8;
+$purple-800: #4a1fb8;
+$purple-900: #3e1c96;
+
+// COLOR BROWN
+$brown-000: #FDF8F6;
+$brown-100: #F5E8E4;
+$brown-200: #E8CFC7;
+$brown-300: #D4AEA1;
+$brown-400: #BA8774;
+$brown-500: #9D6652;
+$brown-600: #7D4432;
+$brown-700: #5F3326;
+$brown-800: #41231A;
+$brown-900: #23130E;
+
+// COLOR PRIMARY
+$point-color-1 : $white;
+$point-color-2 : $black;
+$warning: #ff1d1d;
