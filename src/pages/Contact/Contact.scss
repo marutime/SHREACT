@@ -1,38 +1,60 @@
 @import '../../assets/styles/index.scss';
 
-<<<<<<< HEAD
 .contact-container {         
-    padding: 50px;    
-        h1{
-            font-size: $font-size-60;
-            font-weight: $font-weight-900;
-        }     
+    padding: 100px 100px;          
     
 
     article {
-        padding-bottom: 30px;
+        padding: 50px 0;
+        
+        h1{
+            font-size: 7rem;
+            font-weight: $font-weight-700;            
+        }
+        h2{
+            font-size: 4rem;
+            font-weight: $font-weight-600;
+            padding-bottom: 20px;
+        }
+        h3{
+            font-size: 2rem;
+            font-weight: $font-weight-600;
+            padding-bottom: 20px;
+        }     
         .contact-form {
             div{
                 display: flex;                
-                padding: 30px 0;
+                padding: 40px 0;
                 width: 100%;
                 border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-
+                
                 label{
-                    width: 10%;
+                    width: 15%;
+                    font-size: 30px;
                 }
 
-                input {         
-                    width: 90%;   
+                input { 
+                    font-size: 30px;        
+                    width: 85%;   
                     color: $white;        
                     &::placeholder {
+                        
                         color: $white;                        
                         opacity: 0.3;
                     }
                 }
+                &:hover
+                {
+                    border-bottom: 2px solid $white;
+                }
+            }
+            p {
+                text-align: center;
+                padding-top: 10px;
+                font-size: 20px;
+                color: red;
             }
             
-           
         }
     }
     
@@ -42,41 +64,3 @@
 
 
 
-=======
-.contact-container { 
-    background-color: $gray-100;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-
-    .contact-form {
-        background-color: $gray-400;
-        width: 100%;
-        max-width: 600px;
-        min-height: 60vh;
-        border-radius: $border-radius-10;
-        
-        
-        
-        div {
-            padding-top: $padding-40;
-            text-align: center;
-            label {
-                display: block;
-                margin-bottom: 20px;
-            }
-            input {
-                background-color: $white-100 !important;
-                width: 60%;
-            }
-            textarea {
-                padding: $padding-15;
-                height: 150px;
-                width: 60%;
-            }
-        }          
-    }    
-}
-
->>>>>>> 4b8c3667da030c0388177a044b2c4464b134a5bc
