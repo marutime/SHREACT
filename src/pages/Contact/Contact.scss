@@ -1,38 +1,66 @@
 @import '../../assets/styles/index.scss';
 
-.contact-container { 
-    background-color: $gray-100;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
+.contact-container {         
+    padding: 100px 100px;          
+    
 
-    .contact-form {
-        background-color: $gray-400;
-        width: 100%;
-        max-width: 600px;
-        min-height: 60vh;
-        border-radius: $border-radius-10;
+    article {
+        padding: 50px 0;
         
-        
-        
-        div {
-            padding-top: $padding-40;
-            text-align: center;
-            label {
-                display: block;
-                margin-bottom: 20px;
+        h1{
+            font-size: 7rem;
+            font-weight: $font-weight-700;            
+        }
+        h2{
+            font-size: 4rem;
+            font-weight: $font-weight-600;
+            padding-bottom: 20px;
+        }
+        h3{
+            font-size: 2rem;
+            font-weight: $font-weight-600;
+            padding-bottom: 20px;
+        }     
+        .contact-form {
+            div{
+                display: flex;                
+                padding: 40px 0;
+                width: 100%;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+                
+                label{
+                    width: 15%;
+                    font-size: 30px;
+                }
+
+                input { 
+                    font-size: 30px;        
+                    width: 85%;   
+                    color: $white;        
+                    &::placeholder {
+                        
+                        color: $white;                        
+                        opacity: 0.3;
+                    }
+                }
+                &:hover
+                {
+                    border-bottom: 2px solid $white;
+                }
             }
-            input {
-                background-color: $white-100 !important;
-                width: 60%;
+            p {
+                text-align: center;
+                padding-top: 10px;
+                font-size: 20px;
+                color: red;
             }
-            textarea {
-                padding: $padding-15;
-                height: 150px;
-                width: 60%;
-            }
-        }          
-    }    
+            
+        }
+    }
+    
 }
+
+
+
+
 
