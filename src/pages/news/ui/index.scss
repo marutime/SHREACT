@@ -1,0 +1,27 @@
+.news-container {
+    display: grid;
+
+    .news-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 40px 30px;
+        border-bottom: 1px solid #222;
+        transition: background-color styles.$transition-35;
+        cursor: pointer;
+
+        h2 {
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            text-align: right;
+        }
+
+        &:hover {
+            background-color: #0a0a0a;
+        }
+    }
+}
