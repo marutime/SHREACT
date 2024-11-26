@@ -1,0 +1,56 @@
+.contact-container {         
+    article {
+        padding: 50px 0;
+        
+        h1{
+            font-size: 7rem;
+            font-weight: styles.$font-weight-700;            
+        }
+        h2{
+            font-size: 4rem;
+            font-weight: styles.$font-weight-600;
+            padding-bottom: 20px;
+        }
+        h3{
+            font-size: 2rem;
+            font-weight: styles.$font-weight-600;
+            padding-bottom: 20px;
+        }     
+        .contact-form {
+            div{
+                display: flex;                
+                padding: 40px 0;
+                width: 100%;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+                
+                label{
+                    width: 15%;
+                    font-size: 30px;
+                }
+
+                input { 
+                    font-size: 30px;        
+                    width: 85%;   
+                    color: styles.$white;        
+                    &::placeholder {
+                        
+                        color: styles.$white;                        
+                        opacity: 0.3;
+                    }
+                }
+                &:hover
+                {
+                    border-bottom: 2px solid styles.$white;
+                }
+            }
+            p {
+                text-align: center;
+                padding-top: 10px;
+                font-size: 20px;
+                color: red;
+            }
+            
+        }
+    }
+    
+}
